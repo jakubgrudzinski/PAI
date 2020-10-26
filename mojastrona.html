@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=3">
+<link rel="stylesheet" href="strona.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Bilard Artystyczny</h1>
+</div>
+
+<div id="navbar">
+  <a class="active" href="javascript:void(0)">Początek</a>
+  <a href="https://pl.wikipedia.org/wiki/Bilard">Bilard Artystyczny</a>
+  <a href="http://www.bilard-sport.pl/kalendarz.php?sezon=2020">Turnieje</a>
+  <a href="http://www.strefa21.com/">Klub Bilardowy</a>
+</div>
+
+<div class="content">
+  <h3 style="text-align: center">Jak to się zaczeło?</h3>
+  <p style="text-align: justify">Moja pierwsza styczność z bilardem miała miejsce 26 lat temu. Byliśmy wtedy z moimi rodzicami na nartach w Zakopanem i wieczorem poszliśmy do klubu bilardowego.
+ Ta gra spodobała mi się od pierwszego uderzenia i stwierdziłem wtedy, że chciałbym grać częściej. Tu chylę czoła moim rodzicom, którzy niesamowicie wspierali mnie w mojej pasji.
+ Dzięki ich wsparciu, poświęceniu swojego prywatnego czasu (jeździli ze mną na wszystkie zawody), mogłem realizować swoje marzenia. Oczywiście pierwsze lata to głównie mozolny
+ trening, podpatrywanie lepszych zawodników i wyciąganie wniosków z przegranych meczy. </p>
+
+  <p style="text-align: justify">Tak, przełom nastąpił w 2002 roku. Byłem już „zmęczony” typowym pool bilardem i szukałem nowych wyzwań. Przypadkiem dowiedziałem się o rozgrywanych zawodach ME w
+  Bilardzie Artystycznym w Jaworznie. Stwierdziłem, że byłoby to nowe wyzwanie, gdzie chciałbym się spróbować. Po 2 tygodniach treningu udało mi się w tych zawodach zająć
+  drugie miejsce, a tym samym zdobyć tytuł Vice Mistrza Europy. I to właśnie był mój początek przygody z Bilardem Artystycznym. </p>
+</div>
+
+<h3 style="text-align: center">Czego wymaga Bilard Artystyczny?</h3>
+<p style="text-align: justify"> Bilard wymaga samodyscypliny. Umiejętności poświęcenia wielu godzin na samodzielnym doskonaleniu techniki uderzeń i wbijania bil.
+ W dzieciństwie razem z bratem trenowaliśmy i jeździliśmy na zawody. On jednak w pewnym momencie zdecydował, że jego przygoda z bilardem dobiega końca i
+ skoncentrował się na innych aspektach swojego życia. </p>
+<div style="text-align: center"><img src="bilard.jpg" alt="bilard">
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
